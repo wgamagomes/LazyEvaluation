@@ -20,7 +20,6 @@ namespace LazyEvaluation.Console
             {
                 if (item == 10) break;
             }
-
         }
     }
 
@@ -49,8 +48,7 @@ namespace LazyEvaluation.Console
             for (int i = 0; i < 1000000; i++)
             {
                 yield return ThisWillTakeForever(i);
-            }
-           
+            }           
         }
     }
 }
